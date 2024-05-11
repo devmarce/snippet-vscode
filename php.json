@@ -50,16 +50,35 @@
 	//php debbuger pre DIE marce
 	"php debbuger pre DIE":{
 		"scope": "html,php",
-		"prefix": "debbuger_php_pre DIE - marce",
+		"prefix": "debbuger_php_pre DIE - MARCE",
 		"body": [
 			"/* INI: TEST DEBUGGER */",
+			"echo '🐚⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘Test Debugger⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁙⁙⁙⁙🦀</br>';",
 			"echo '<pre>';",
 			"var_dump($1);",
 			"echo '</pre>';",
 			"die();",
+			"echo '🐚⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘Test Debugger⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁙⁙⁙⁙🦀</br>';",
 			"/* END: TEST DEBUGGER */"
 		],
 		"description": "php debbuger pre DIE"
+	},
+
+	//php debbuger pre DIE marce
+	"php debbuger DATA":{
+		"scope": "html,php",
+		"prefix": "debbuger DATA - MARCE",
+		"body": [
+			"/* INI: TEST DEBUGGER */",
+			"echo '<pre style=';",
+			"echo '🐚⁘⁘⁘⁘⁘⁘⁘⁘Test Debugger⁘⁘⁘⁘⁘⁘⁘⁘⁙⁙⁙⁙🦀</br>';",
+			"echo '⬇️';",
+			"var_dump($1);",
+			"echo '🐚⁘⁘⁘⁘⁘⁘⁘⁘Test Debugger⁘⁘⁘⁘⁘⁘⁘⁘⁙⁙⁙⁙🦀</br>';",
+			"echo '</pre>';",
+			"/* END: TEST DEBUGGER */"
+		],
+		"description": "php debbuger DATA"
 	},
 
 	//php comentario /**/ marce
